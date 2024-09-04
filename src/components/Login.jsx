@@ -56,6 +56,7 @@ return (
                 label="Email: "
                 placeholder="Enter your email"
                 type="email"
+                //if not spred it will copy every input field.....
                 {...register("email", {
                     required: true,
                     validate: {
